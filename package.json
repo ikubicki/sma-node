@@ -1,0 +1,27 @@
+{
+  "name": "sma-api-client",
+  "version": "0.1.0",
+  "description": "Retrieves information from inverter every X seconds and push them into file or URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikubicki/sma-node.git"
+  },
+  "keywords": [
+    "sma",
+    "metrics",
+    "batch"
+  ],
+  "author": "Irek Kubicki <irek@ixdude.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikubicki/sma-node/issues"
+  },
+  "homepage": "https://github.com/ikubicki/sma-node",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
